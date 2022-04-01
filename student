@@ -1,6 +1,6 @@
 package Application;
 
-import Entities.Pontos;
+import Entities.Points;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Student {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Pontos pts = new Pontos();
+        Points pts = new Points();
 
         System.out.print("Nome do aluno: ");
         pts.nome = sc.nextLine();
