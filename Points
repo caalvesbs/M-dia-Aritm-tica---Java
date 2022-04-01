@@ -1,6 +1,6 @@
 package Entities;
 
-public class Pontos {
+public class Points {
 
     public String nome;
     public double n1;
